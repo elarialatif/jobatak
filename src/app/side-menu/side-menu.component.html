@@ -1,0 +1,179 @@
+<mat-drawer-container class="sideNav-container">
+    <mat-drawer #sidenav mode="side" opened>
+        <mat-nav-list>
+            <a mat-list-item [routerLink]="''">
+                <img class="icon_" src="../assets/images/personal.png">
+                <span>Personal Development</span>
+            </a>
+            <!--  -->
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <a mat-panel-title [routerLink]="''">
+                            <img class="icon_" src="../assets/images/dashboard.png">
+                            <span>dashboard</span>
+                        </a>
+                    </mat-expansion-panel-header>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-pen sub-icon"></i>
+                        <span class="sub-item">account settings</span>
+                    </a>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-dollar-sign sub-icon"></i>
+                        <span class="sub-item">market place</span>
+                    </a>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-list-ul sub-icon "></i>
+                        <span class="sub-item">work space</span>
+                    </a>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <!--  -->
+            <a mat-list-item [routerLink]="''">
+                <img class="icon_" src="../assets/images/inbox.png">
+                <span>inbox</span>
+                <span class="notification">2</span>
+            </a>
+            <!--  -->
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <a mat-panel-title [routerLink]="''">
+                            <img class="icon_" src="../assets/images/jobatak.png">
+                            <span>Jobs Managment</span>
+                        </a>
+                    </mat-expansion-panel-header>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-list-ul sub-icon"></i>
+                        <span class="sub-item">jobs finder</span>
+                    </a>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-arrow-right sub-icon"></i>
+                        <span class="sub-item">start a project</span>
+                    </a>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-arrow-right sub-icon"></i>
+                        <span class="sub-item">on going jobs</span>
+                    </a>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-arrow-right sub-icon"></i>
+                        <span class="sub-item">completed jobs</span>
+                    </a>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <!--  -->
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <a mat-panel-title [routerLink]="''">
+                            <img class="icon_" src="../assets/images/finances.png">
+                            <span>Finances</span>
+                        </a>
+                    </mat-expansion-panel-header>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-pen sub-icon"></i>
+                        <span class="sub-item">balance</span>
+                    </a>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-pen sub-icon"></i>
+                        <span class="sub-item">income</span>
+                    </a>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-store sub-icon"></i>
+                        <span class="sub-item">Deposit/Withdraw</span>
+                    </a>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-receipt sub-icon"></i>
+                        <span class="sub-item">Payment settings</span>
+                    </a>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <!--  -->
+            <a mat-list-item [routerLink]="''">
+                <img class="icon_" src="../assets/images/settings.png">
+                <span>Setting & Privacy</span>
+            </a>
+            <!--  -->
+            <a mat-list-item [routerLink]="''">
+                <img class="icon_" src="../assets/images/startup.png">
+                <span>Startup-Business</span>
+            </a>
+            <!--  -->
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <a mat-panel-title [routerLink]="''">
+                            <img class="icon_" src="../assets/images/jobatak.png">
+                            <span>Jobatak Market</span>
+                        </a>
+                    </mat-expansion-panel-header>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-list-ul sub-icon"></i>
+                        <span class="sub-item">balance</span>
+                    </a>
+                    <a mat-list-item [routerLink]="''">
+                        <i class="fas fa-arrow-right sub-icon"></i>
+                        <span class="sub-item">income</span>
+                    </a>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <!--  -->
+            <a mat-list-item [routerLink]="''">
+                <img class="icon_" src="../assets/images/newsfeed.png">
+                <span>Community Newsfeed</span>
+            </a>
+            <!--  -->
+            <a mat-list-item [routerLink]="''">
+                <img class="icon_" src="../assets/images/social.png">
+                <span>Social Managment</span>
+            </a>
+            <!--  -->
+            <a mat-list-item [routerLink]="''">
+                <img class="icon_" src="../assets/images/feedback.png">
+                <span>Feedback</span>
+            </a>
+            <!--  -->
+            <a mat-list-item [routerLink]="''">
+                <img class="icon_" src="../assets/images/help.png">
+                <span>Help & Support</span>
+            </a>
+            <!--  -->
+        </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content>
+        <button mat-icon-button>
+            <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+        </button>
+
+        <div class="icons">
+            <button mat-icon-button>
+                <i class="fas fa-store"></i>
+            </button>
+
+            <button mat-icon-button>
+                <img src="../assets/images/customize.PNG" style="width: 25px;">
+            </button>
+
+            <button mat-icon-button>
+                <img src="../assets/images/jobatak.png" style="width: 25px;">
+            </button>
+        </div>
+        <div class="logo">
+            <img src="../assets/images/jobatak_black.png" style="width: 170px;">
+        </div>
+        <div class="lang">
+            <img src="../assets/images/english.png" alt="">
+            <span>english</span>
+        </div>
+        <button mat-icon-button class="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+        <div class="auth">
+            <button mat-button>sign up</button>
+            <button mat-button>log in</button>
+        </div>
+        <!-- cards -->
+        <app-card></app-card>
+        <!-- #cards -->
+    </mat-drawer-content>
+</mat-drawer-container>

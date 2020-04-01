@@ -1,0 +1,67 @@
+.card {
+    box-shadow: 0px 1px 3px 0 rgba(25, 42, 70, 0.13);
+    width: 75%;
+}
+
+.smallDet {
+    width: 25%;
+    float: left;
+    margin-top: -50px;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: none;
+    text-transform: capitalize;
+}
+
+.card-header h4 {
+    font-size: 1.2rem;
+}
+
+.sInfo {
+    font-size: 0.8rem;
+    color: #000;
+    margin-right: 45px;
+}
+
+.rating {
+    color: #FDAC41;
+    position: relative;
+    top: 0.2rem;
+}
+
+.rating i {
+    margin-right: 0.1rem;
+}
+
+.bdg {
+    padding: 7px;
+    color: #727e8c;
+    background-color: #E2ECFF;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.smallDet span {
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+    color: #727E8C;
+}
+
+.smallDet button {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.bdgType {
+    background-color: #E6EAEE;
+    color: #475F7B;
+    text-transform: uppercase;
+    text-align: center;
+}
